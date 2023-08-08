@@ -1,67 +1,19 @@
-import Image from "next/image";
-import Link from "next/link";
 import NavbarMobile from "../NavbarMobile";
+import NavbarLogo from "./NavbarLogo";
+import NavbarItem from "./NavbarItem";
+import NavbarMedia from "./NavbarMedia";
 
-export default function Navbar() {
+export default function Navbar({ className = "" }) {
   return (
-    <nav className="navbar flex-row-reverse lg:mt-5 lg:flex-row lg:justify-between">
-      <div className="navbar-brand">
-        <Link href="/">
-          <Image src="/next.svg" width={100} height={100} alt="next logo" />
-        </Link>
-      </div>
-      <div className="navbar-item hidden lg:flex lg:w-1/2">
-        <ul className="flex justify-between w-full">
-          <li>
-            <Link href="">Home</Link>
-          </li>
-          <li>
-            <Link href="">About</Link>
-          </li>
-          <li>
-            <Link href="">Tech Stack</Link>
-          </li>
-          <li>
-            <Link href="">Projects</Link>
-          </li>
-          <li>
-            <Link href="">Contact</Link>
-          </li>
-        </ul>
-        <div className="navbar-link w-1/6 ml-10">
-          <ul className="w-full flex gap-5">
-            <li>
-              <a href="">
-                <Image
-                  src="/images/github-icon.svg"
-                  alt="github"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <Image
-                  src="/images/twitter-icon.svg"
-                  alt="twitter"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <Image
-                  src="/images/linkedin-icon.svg"
-                  alt="linkedin"
-                  width={24}
-                  height={24}
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
+    <nav className={className}>
+      <NavbarLogo />
+      <div className="navbar-menu hidden lg:flex lg:gap-8">
+        <NavbarItem
+          className="flex gap-8 font-bold group"
+          hover="group-hover:bg-gradient-radial from-indigo-400 to-pink-400
+        hover:text-transparent bg-clip-text"
+        />
+        <NavbarMedia className="flex gap-5" />
       </div>
       <NavbarMobile />
     </nav>

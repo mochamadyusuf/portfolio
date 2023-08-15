@@ -10,7 +10,7 @@ export default function NavbarMobile() {
         className="menu menu-lg dropdown-content z-[1] shadow-lg bg-white -mt-12 -ml-2 p-3 min-h-screen md:w-3/4 md:pt-12"
         tabIndex={0}
       >
-        <NavbarItem className="font-semibold md:font-bold text-rose-700" />
+        <NavbarItem className="font-semibold md:font-bold" />
         <NavbarMedia className="flex mt-3" />
       </div>
     </div>

@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="lg:px-36">
       <body className={inter.className}>
-        <header>
-          <Navbar className="navbar flex-row-reverse shadow-md lg:shadow-none lg:mt-5 lg:flex-row lg:justify-between" />
+        <header className="relative mb-10 md:mb-28 lg:mb-6">
+          <Navbar className="navbar z-10 fixed top-0 flex-row-reverse shadow-md bg-white md:py-6 lg:shadow-none lg:flex-row lg:gap-64 lg:pt-8 lg:left-36 lg:right-36 lg:w-auto" />
         </header>
         {children}
       </body>

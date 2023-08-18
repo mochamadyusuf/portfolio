@@ -10,7 +10,7 @@ export default function Hero() {
             alt="Photo Profile"
             width={250}
             height={250}
-            className="max-w-sm shadow-2xl rounded-3xl border-[4px] ring ring-primary ring-offset-base-100 ring-offset-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-border border-transparent"
+            className="max-w-sm rounded-3xl border-[4px] ring ring-primary ring-offset-base-100 ring-offset-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-border border-transparent"
           />
           <div>
             <h1 className="text-3xl leading-10 mt-4 font-bold flex flex-col md:text-4xl md:leading-[60px] lg:text-5xl lg:leading-[70px]">

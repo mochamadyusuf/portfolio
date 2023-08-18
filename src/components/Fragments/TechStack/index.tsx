@@ -47,12 +47,16 @@ export default function TechStack() {
   return (
     <section
       id="tech-stack"
-      className="min-h-screen px-4 bg-slate-200 bg-opacity-50 shadow-lg rounded-lg py-10 md:mt-28 lg:mt-36 lg:px-0"
+      className="min-h-screen md:min-h-full md:mt-28 lg:min-h-screen lg:mt-36 lg:px-0"
     >
       <div className="leading-10 text-center">
-        <h2 className="text-3xl font-bold">My Tech Stack</h2>
-        <p>Technologies I&apos;ve been working with recently</p>
-        <ul className="flex gap-12 justify-center flex-wrap mt-10 md:mt-16 md:gap-y-20 lg:gap-24 lg:mt-20">
+        <h2 className="text-3xl font-bold underline">My Tech Stack</h2>
+        <p className="italic">
+          Technologies I&apos;ve been working with recently
+        </p>
+      </div>
+      <div className="bg-slate-200 bg-opacity-50  rounded-xl">
+        <ul className="flex gap-12 justify-center flex-wrap mt-10 py-8 md:mt-16 md:gap-y-20 lg:gap-24 lg:mt-16">
           {SKILLS.map((SKILL, index) => (
             <li key={index}>
               <Image src={SKILL.url} alt={SKILL.alt} width={100} height={100} />

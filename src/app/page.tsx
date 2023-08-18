@@ -1,4 +1,5 @@
 import Hero from "@/components/Fragments/Hero";
+import Project from "@/components/Fragments/Project";
 import TechStack from "@/components/Fragments/TechStack";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <TechStack />
+      <Project />
     </main>
   );
 }

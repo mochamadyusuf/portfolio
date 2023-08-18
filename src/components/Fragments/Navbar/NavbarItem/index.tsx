@@ -15,12 +15,12 @@ export default function NavbarItem({ className = "", hover = "" }) {
           </Link>
         </li>
         <li>
-          <Link href="#tech-stack" className={hover}>
+          <Link href="/#tech-stack" className={hover}>
             Tech Stack
           </Link>
         </li>
         <li>
-          <Link href="" className={hover}>
+          <Link href="/#project" className={hover}>
             Projects
           </Link>
         </li>

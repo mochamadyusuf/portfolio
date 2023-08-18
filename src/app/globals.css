@@ -25,3 +25,7 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+.link-project {
+  @apply link inline-flex items-center gap-1
+}

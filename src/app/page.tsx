@@ -4,7 +4,7 @@ import TechStack from "@/components/Fragments/TechStack";
 
 export default function Home() {
   return (
-    <main>
+    <main className="lg:px-24">
       <Hero />
       <TechStack />
       <Project />

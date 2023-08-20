@@ -5,13 +5,13 @@ export default function NavbarItem({ className = "", hover = "" }) {
     <div className="navbar-item">
       <ul className={className}>
         <li>
-          <Link href="" className={hover}>
+          <Link href="/" className={hover}>
             Home
           </Link>
         </li>
         <li>
           <Link href="" className={hover}>
-            About
+            About Me
           </Link>
         </li>
         <li>

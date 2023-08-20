@@ -18,11 +18,11 @@ export default function NavbarMedia({ className = "" }) {
           <a
             href=""
             className="lg:tooltip lg:tooltip-bottom"
-            data-tip="twitter"
+            data-tip="instagram"
           >
             <Image
-              src="/images/twitter-icon.svg"
-              alt="twitter"
+              src="/images/instagram-icon.svg"
+              alt="instagram"
               width={24}
               height={24}
             />

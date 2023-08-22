@@ -10,7 +10,7 @@ export default function NavbarItem({ className = "", hover = "" }) {
           </Link>
         </li>
         <li>
-          <Link href="" className={hover}>
+          <Link href="/about" className={hover}>
             About Me
           </Link>
         </li>

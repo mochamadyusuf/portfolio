@@ -2,7 +2,7 @@ const date = new Date();
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col-reverse items-center text-center gap-4 p-8 mt-16 md:mt-24 bg-neutral text-neutral-content leading-loose border-t-4 border-purple-400">
+    <footer className="footer flex flex-col-reverse items-center text-center gap-4 p-8 mt-16 md:mt-24 bg-neutral text-neutral-content leading-loose border-t-4 border-purple-400">
       <div>
         <p>
           Copyright © <time>{date.getFullYear()}</time> - All right reserved by

@@ -5,7 +5,12 @@ export default function NavbarMedia({ className = "" }) {
     <div className="navbar-media">
       <ul className={className}>
         <li>
-          <a href="" className="lg:tooltip lg:tooltip-bottom" data-tip="github">
+          <a
+            href="https://github.com/mochamadyusuf"
+            target="_blank"
+            className="lg:tooltip lg:tooltip-bottom"
+            data-tip="github"
+          >
             <Image
               src="/images/github-icon.svg"
               alt="github"
@@ -16,7 +21,8 @@ export default function NavbarMedia({ className = "" }) {
         </li>
         <li>
           <a
-            href=""
+            href="https://instagram.com/mchdysf"
+            target="_blank"
             className="lg:tooltip lg:tooltip-bottom"
             data-tip="instagram"
           >
@@ -30,7 +36,8 @@ export default function NavbarMedia({ className = "" }) {
         </li>
         <li>
           <a
-            href=""
+            href="https://linkedin.com/in/mochamadyusuf"
+            target="_blank"
             className="lg:tooltip lg:tooltip-bottom"
             data-tip="linkedin"
           >

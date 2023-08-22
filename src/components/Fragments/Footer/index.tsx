@@ -10,16 +10,32 @@ export default function Footer() {
         </p>
       </div>
       <div className="inline-flex gap-4 bg-gradient-radial from-indigo-600 to-pink-400 text-transparent bg-clip-text font-bold">
-        <a href="" className="hover:text-white">
+        <a
+          href="https://github.com/mochamadyusuf"
+          target="_blank"
+          className="hover:text-white"
+        >
           Github
         </a>
-        <a href="" className="hover:text-white">
+        <a
+          href="https://instagram.com/mchdysf"
+          target="_blank"
+          className="hover:text-white"
+        >
           Instagram
         </a>
-        <a href="" className="hover:text-white">
+        <a
+          href="https://wa.me/+6283869696964"
+          target="_blank"
+          className="hover:text-white"
+        >
           Whatsapp
         </a>
-        <a href="" className="hover:text-white">
+        <a
+          href="https://linkedin.com/in/mochamadyusuf"
+          target="_blank"
+          className="hover:text-white"
+        >
           Linkedin
         </a>
       </div>

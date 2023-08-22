@@ -1,4 +1,7 @@
 import "/src/app/globals.css";
+import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { BiLogoTailwindCss } from "react-icons/bi";
 
 export default function Skill() {
   return (
@@ -6,7 +9,10 @@ export default function Skill() {
       <h2 className="subheading-about mb-4">Skills</h2>
       <ul>
         <li>
-          <p>HTML</p>
+          <p>
+            <FaHtml5 className="inline mr-1 text-orange-600" />
+            HTML
+          </p>
           <progress
             className="progress progress-error"
             value={90}
@@ -14,7 +20,10 @@ export default function Skill() {
           ></progress>
         </li>
         <li>
-          <p>CSS</p>
+          <p>
+            <FaCss3Alt className="inline mr-1 text-blue-600" />
+            CSS
+          </p>
           <progress
             className="progress progress-primary"
             value={85}
@@ -22,7 +31,10 @@ export default function Skill() {
           ></progress>
         </li>
         <li>
-          <p>JavaScript</p>
+          <p>
+            <RiJavascriptFill className="inline mr-1 text-yellow-300" />
+            JavaScript
+          </p>
           <progress
             className="progress progress-warning"
             value={60}
@@ -30,7 +42,10 @@ export default function Skill() {
           ></progress>
         </li>
         <li>
-          <p>Tailwind</p>
+          <p>
+            <BiLogoTailwindCss className="inline mr-1 text-teal-400" />
+            Tailwind
+          </p>
           <progress
             className="progress progress-info"
             value={80}
@@ -38,7 +53,10 @@ export default function Skill() {
           ></progress>
         </li>
         <li>
-          <p>React</p>
+          <p>
+            <FaReact className="inline mr-1 text-blue-400" />
+            React
+          </p>
           <progress
             className="progress progress-info"
             value={75}

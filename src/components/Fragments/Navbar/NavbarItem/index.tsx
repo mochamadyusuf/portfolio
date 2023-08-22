@@ -25,7 +25,7 @@ export default function NavbarItem({ className = "", hover = "" }) {
           </Link>
         </li>
         <li>
-          <Link href="" className={hover}>
+          <Link href="/contact" className={hover}>
             Contact
           </Link>
         </li>

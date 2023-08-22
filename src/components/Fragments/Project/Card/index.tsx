@@ -20,7 +20,7 @@ const projects = [
     title: "Movie App",
     description: `This is an example of a movie list website using the React JS library by fetching data from an open source API.`,
     website: "https://movie-app-mochamad-yusuf.web.app",
-    github: "https://github.com/mochamadyusuf/mochamadyusuf.github.io.git",
+    github: "https://github.com/mochamadyusuf/movie-app.git",
   },
 ];
 

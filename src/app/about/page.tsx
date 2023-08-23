@@ -1,9 +1,9 @@
-import AboutMe from "@/components/Fragments/AboutMe";
-import Certificate from "@/components/Fragments/Certificate";
-import Education from "@/components/Fragments/Education";
-import HeroAbout from "@/components/Fragments/HeroAbout";
-import Skill from "@/components/Fragments/Skill";
-import WorkExperience from "@/components/Fragments/WorkExperience";
+import AboutMe from "@/components/AboutMe";
+import Certificate from "@/components/Certificate";
+import Education from "@/components/Education";
+import HeroAbout from "@/components/HeroAbout";
+import Skill from "@/components/Skill";
+import WorkExperience from "@/components/WorkExperience";
 
 export default function About() {
   return (

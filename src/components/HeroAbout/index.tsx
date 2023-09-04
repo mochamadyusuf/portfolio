@@ -1,8 +1,9 @@
 import Image from "next/image";
+import "animate.css";
 
 export default function HeroAbout() {
   return (
-    <>
+    <div className="animate__animated animate__zoomIn">
       <Image
         src="/images/profile-about.png"
         alt="profile about"
@@ -12,6 +13,6 @@ export default function HeroAbout() {
       />
       <h1 className="text-3xl font-bold">Mochamad Yusuf</h1>
       <p className="text-sm">Web Developer | Front-End Developer</p>
-    </>
+    </div>
   );
 }

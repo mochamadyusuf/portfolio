@@ -14,7 +14,7 @@ export default function TechStack() {
         </p>
       </div>
       <div className="bg-slate-200 bg-opacity-50  rounded-xl">
-        <ul className="flex gap-12 justify-center flex-wrap mt-10 py-8 md:mt-16 md:gap-y-20 lg:gap-24 lg:mt-10">
+        <ul className="flex gap-20 justify-center flex-wrap mt-10 py-8 md:mt-16 md:gap-y-20 lg:gap-24 lg:mt-10">
           {SKILLS.map((SKILL, index) => (
             <li key={index}>
               <Image

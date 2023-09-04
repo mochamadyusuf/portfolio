@@ -18,4 +18,13 @@ export const projects = [
     website: "https://movie-app-mochamad-yusuf.web.app",
     github: "https://github.com/mochamadyusuf/movie-app.git",
   },
+  {
+    id: 3,
+    img: "/images/portfolio_project.png",
+    alt: "portfolio",
+    title: "My Web Portfolio",
+    description: `This is an example of a portfolio website using Next JS and Tailwind CSS. with the addition of the Daisy UI plugin.`,
+    website: "https://movie-app-mochamad-yusuf.web.app",
+    github: "https://github.com/mochamadyusuf/movie-app.git",
+  },
 ];
